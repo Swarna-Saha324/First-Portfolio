@@ -11,6 +11,9 @@
 }
 header{
     background-color: antiquewhite;
+    background: url(../images/developer.png), url(../images/header_bg.png), antiquewhite;
+    background-position:top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
 nav{
@@ -46,4 +49,61 @@ nav ul li a{
 nav ul li a:hover{
     color: darkorange;
     transition: 0.3s;
+}
+.btn{
+    background-color: rgb(213, 90, 29);
+    border:none;
+    padding:18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+}
+#banner{
+    margin-top: 47px;
+    margin-left: 230px;
+    margin-right:48px;
+    display:flex;
+    justify-content: space-between;
+    gap: 200px;
+    align-items: center;
+
+    
+
+}
+.banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(213, 90, 29);
+    margin-bottom:  5px;
+} 
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+    color: rgb(200, 32, 13);
+}
+.banner-content
+{
+    justify-content: space-around;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:rgb(213, 90, 29);
+    line-height: 20px;
+}
+
+#banner  .banner-img img{
+   max-width: 500px;
+   max-height: 600px;
+   vertical-align: middle; 
+    
 }
